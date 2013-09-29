@@ -1,0 +1,36 @@
+#game {
+  border: solid;
+  border-width: 1px;
+  border-color: #e0e0e0;
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+#title {
+  font-family: "Arial Black", Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  font-family: "Droid Serif", serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #6A7C8E;
+}
+
+a:visited {
+  color: #6A7C8E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6A7C8E;
+  text-decoration: underline;
+}

@@ -122,5 +122,4 @@ $(document).ready(function(){
   game.glider(4,4,c);
   game.gliderb(10,10,c);
   game.gliderb(15,15,c);
-  window.setInterval(function() {game.timeStep(c); }, 10);
 });
