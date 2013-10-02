@@ -1,3 +1,22 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+#header {
+  width: 100%;
+  background-color: #FCC79C;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-top-style: none;
+  font-family: "Arial Black", Arial, sans-serif;
+  text-align: center;
+}
+
 #game {
   border: solid;
   border-width: 1px;
@@ -9,28 +28,35 @@
   text-align: center;
 }
 
+
 #title {
   font-family: "Arial Black", Arial, sans-serif;
   text-align: center;
 }
 
-a {
-  font-family: "Droid Serif", serif;
+#navbar {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+a {
+  font-family: "Droid Serif", serif;
   margin-bottom: 10px;
+  display: inline;
   text-align: center;
   text-decoration: none;
-  color: #6A7C8E;
+  color: #065485;
 }
 
 a:visited {
-  color: #6A7C8E;
+  color: #065485;
   text-decoration: none;
 }
 
 a:hover {
-  color: #6A7C8E;
+  color: #065485;
   text-decoration: underline;
 }
