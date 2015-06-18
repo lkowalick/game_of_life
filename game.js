@@ -118,8 +118,13 @@ $(document).ready(function(){
   var canvas = document.getElementById("game");
   var c = canvas.getContext("2d");
 
-  game.glider(0,0,c);
-  game.glider(4,4,c);
-  game.gliderb(10,10,c);
-  game.gliderb(15,15,c);
+  for(var i = 0; i<= 79; i++) {
+    for(var j = 0; j<= 79; j++) {
+      if (Math.random() <= 0.1) {
+        game.drawBox(i,j,c);
+      }
+    }
+  }
+
+  window.setInterval(function() {game.timeStep(c); }, 5);
 });
